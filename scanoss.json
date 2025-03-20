@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "skip": {
+      "patterns": {},
+      "sizes": {}
+    }
+  },
+  "bom": {
+    "remove": [
+      {
+        "path": "src/cyclonedx.c",
+        "purl": "pkg:github/scanoss/scanner.c"
+      },
+      {
+        "path": "src/format_utils.c",
+        "purl": "pkg:github/scanoss/scanner.c"
+      }
+    ]
+  }
+}
