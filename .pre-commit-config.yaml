@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/scanoss/pre-commit-hooks
-    rev: bce80935cb8ce8abd6dcd95a1704fd8899dc641a
+    rev: cfd947a98956788d7c1979827124bc48a9e76e22
     hooks:
       - id: check-open-source-software
 
