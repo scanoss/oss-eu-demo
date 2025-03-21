@@ -10,6 +10,11 @@
       {
         "path": "src/ts/ScanDialog.tsx",
         "purl": "pkg:github/scanoss/scanoss.cc"
+      },
+      {
+        "path": "src/cli.py",
+        "purl": "pkg:github/scanoss/scanoss.py",
+        "comment": "for onramp demo"
       }
     ]
   }
