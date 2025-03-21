@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/scanoss/pre-commit-hooks
-    rev: cfd947a98956788d7c1979827124bc48a9e76e22
+    rev: v0.1.0
     hooks:
-      - id: check-open-source-software
+      - id: scanoss-check-undeclared-code
 
