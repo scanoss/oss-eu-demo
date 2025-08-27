@@ -6,7 +6,23 @@
     }
   },
   "bom": {
-    "include": []
+    "include": [
+      {
+        "purl": "pkg:github/scanoss/scanner.c"
+      },
+      {
+        "purl": "pkg:github/scanoss/scanoss.java"
+      },
+      {
+        "path": "src/cli-bin.ts",
+        "purl": "pkg:github/scanoss/scanoss.js"
+      }
+    ],
+    "remove": [
+      {
+        "path": "src/cli.py",
+        "purl": "pkg:github/scanoss/scanoss.py"
+      }
+    ]
   }
 }
-
