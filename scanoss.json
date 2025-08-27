@@ -12,6 +12,10 @@
       },
       {
         "purl": "pkg:github/scanoss/scanoss.java"
+      },
+      {
+        "path": "src/cli-bin.ts",
+        "purl": "pkg:github/scanoss/scanoss.js"
       }
     ],
     "remove": [
@@ -22,4 +26,3 @@
     ]
   }
 }
-
