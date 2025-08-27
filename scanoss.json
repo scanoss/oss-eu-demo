@@ -6,6 +6,14 @@
     }
   },
   "bom": {
+    "include": [
+      {
+        "purl": "pkg:github/scanoss/scanner.c"
+      },
+      {
+        "purl": "pkg:github/scanoss/scanoss.java"
+      }
+    ],
     "remove": [
       {
         "path": "src/cli.py",
@@ -14,3 +22,4 @@
     ]
   }
 }
+
