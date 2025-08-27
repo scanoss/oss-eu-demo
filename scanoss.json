@@ -6,11 +6,7 @@
     }
   },
   "bom": {
-    "include": [
-      {
-        "path": "src/components.py",
-        "purl": "pkg:github/scanoss/scanoss.py"
-      }
-    ]
+    "include": []
   }
 }
+
